@@ -1,0 +1,14 @@
+/yolov5_humble_fls/yolov5_ros2:
+  ros__parameters:
+    yolov5_path: "/home/pcl-02/yolov5_humble_fls_tcp/src/yolov5_humble_fls/yolov5"
+    weight_path: "/home/pcl-02/yolov5_humble_fls_tcp/src/yolov5_humble_fls/weights/sonar-rov-yolov5s.pt"
+    image_topic: "/sonar_image_raw"
+    objects_info_pub_topic: "/objects_info_pub"
+    conf: 0.5
+    use_cpu: False
+    display_image: True
+    server_ip: "192.168.162.75"
+    server_port: 8080
+    image_min_length: 300
+    image_quality": 10
+    object_names_file: "/home/pcl-02/yolov5_humble_fls_tcp/src/yolov5_humble_fls/config/object_names.yaml"
